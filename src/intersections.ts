@@ -239,7 +239,7 @@ function isEmpty(arr: PossibleList): boolean {
 
 ////
 /* [...String], [...String], String -> [...String] */
-function original_intersect(arr1, arr2, operator) {
+/*function original_intersect(arr1, arr2, operator) {
   const isEmpty = arr => arr.length === 0;
   const withNot = operator === 'AND-NOT' || operator === 'OR-NOT';
   const byString = (a, b) => a.localeCompare(b);
@@ -288,3 +288,4 @@ function original_intersect(arr1, arr2, operator) {
 
   return results;
 }
+*/
